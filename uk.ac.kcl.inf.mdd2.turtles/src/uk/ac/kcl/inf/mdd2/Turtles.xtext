@@ -44,7 +44,7 @@ enum TurnCommand:
 
 PrimaryExpression returns IntExpression:
     IntLiteral |
-    IntVarExoression |
+    IntVarExpression |
 	'(' Addition ')'
 ;
 
